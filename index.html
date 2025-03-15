@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Bina Informatika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-white bg-opacity-50 fixed-top">
+        <div class="container">
+            <a id="navbarBrand" class="navbar-brand d-flex align-items-center" href="#">
+                <img id="logo" src="img/logo.png" alt="Logo Sekolah" style="height: 70px; margin-right: 10px;">
+                <div style="line-height: 1;">
+                    <span id="navbarText" style="color: black; font-weight: bold;">SMK BINA INFORMATIKA</span>
+                    <br>
+                    <span id="subText" style="color: black; font-size: 14px;">KOTA BOGOR</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navbarLinks" style="font-size: 22px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" style="color: black; font-weight: bold;">
+                            <i class="bi bi-house-fill"></i> Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profil" style="color: black; font-weight: bold;">
+                            <i class="bi bi-star-fill"></i> Visi & Misi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri" style="color: black; font-weight: bold;">
+                            <i class="bi bi-newspaper"></i> Berita
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak" style="color: black; font-weight: bold;">
+                            <i class="bi bi-telephone"></i> Kontak
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Beranda -->
+    <section id="beranda"
+        class="position-relative vh-100 text-center text-white d-flex align-items-center justify-content-center">
+        <!-- Background dengan blur -->
+        <div class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: url('img/sekolah.jpg') center/100% no-repeat;">
+        </div>
+
+        <!-- Konten -->
+        <div class="position-relative z-1 d-flex align-items-center justify-content-center mt-n9">
+            <!-- Logo -->
+            <img src="img/logo.png" alt="Logo Sekolah" class="me-3" width="100">
+
+            <!-- Teks Sekolah -->
+            <div>
+                <h1 class="fs-1 fw-bold mb-0">SMK BINA INFORMATIKA</h1>
+                <h1 class="fs-1 fw-bold mb-0">KOTA BOGOR</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Profil Sekolah -->
+    <section id="profil" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Visi & Misi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, praesentium! Quis quibusdam provident
+                placeat, corrupti pariatur libero dolor. Quod velit iusto asperiores temporibus voluptatum est cum
+                earum, inventore sed impedit.</p>
+            <ul>
+                <li><strong>Visi :</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+                    consequuntur, aperiam tenetur enim, necessitatibus omnis sapiente sed tempora repellat libero veniam
+                    vitae quam obcaecati inventore porro soluta, deserunt quos provident.</li>
+                <li><strong>Misi :</strong>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos eaque nostrum?
+                            Distinctio magnam atque temporibus tenetur nostrum dolore tempora reiciendis, optio numquam
+                            cupiditate ipsum tempore odio labore aut expedita.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos eaque nostrum?
+                            Distinctio magnam atque temporibus tenetur nostrum dolore tempora reiciendis, optio numquam
+                            cupiditate ipsum tempore odio labore aut expedita.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos eaque nostrum?
+                            Distinctio magnam atque temporibus tenetur nostrum dolore tempora reiciendis, optio numquam
+                            cupiditate ipsum tempore odio labore aut expedita.</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Galeri Sekolah -->
+    <section id="galeri" class="bg-light py-5">
+        <div class="container" style="max-width: 900px;"> <!-- Batasi lebar -->
+            <h2 class="text-center mb-4">Berita Sekolah</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/logo.png" class="img-fluid rounded" alt="Berita 1">
+                    <p class="text-center">*Judul Berita 1</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/sekolah.jpg" class="img-fluid rounded" alt="Berita 2">
+                    <p class="text-center">*Judul Berita 2</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/yayasan.png" class="img-fluid rounded" alt="Berita 3">
+                    <p class="text-center">*Judul Berita 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Sekolah -->
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Saran & Masukan</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama:</label>
+                    <input type="text" id="nama" class="form-control" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pesan" class="form-label">Pesan:</label>
+                    <textarea id="pesan" class="form-control" placeholder="Tulis pesan Anda" rows="4"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2025 Nauval Yasha Fadillah - Website Sekolah Sederhana</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.addEventListener("scroll", function () {
+            let navbar = document.getElementById("navbar");
+            let navbarLinks = document.querySelectorAll("#navbarLinks .nav-link");
+            let logo = document.getElementById("logo");
+            let navbarText = document.getElementById("navbarText");
+            let subText = document.getElementById("subText");
+
+            if (window.scrollY > 200) {
+                navbar.classList.remove("bg-opacity-50", "bg-white");
+                navbar.classList.add("bg-primary");
+                navbarLinks.forEach(link => link.style.color = "white");
+                navbarText.style.color = "white"; // Teks "Sekolah Kita" jadi putih
+                subText.style.color = "white"; // Teks "Kota Bogor" jadi putih
+            } else {
+                navbar.classList.remove("bg-primary");
+                navbar.classList.add("bg-white", "bg-opacity-50");
+                navbarLinks.forEach(link => link.style.color = "black");
+                logo.style.filter = "none"; // Logo normal
+                navbarText.style.color = "black"; // Teks "Sekolah Kita" normal
+                subText.style.color = "black"; // Teks "Kota Bogor" normal
+            }
+        });
+    </script>
+
+</body>
+
+</html>
